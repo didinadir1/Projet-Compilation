@@ -277,6 +277,7 @@ public class compi {
                                               if(word[i].equals("\""))i++;
 						if(id(word[i]) != null)i++;
                                                   if(word[i].equals("\""))i++;
+							if (word[i].equals(" "))i++;
 							if(word[i].equals(";;")) return "affichage d'un message a l'ecran ";
 						}
 
